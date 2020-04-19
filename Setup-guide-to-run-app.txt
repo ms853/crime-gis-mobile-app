@@ -1,0 +1,20 @@
+This application is the client app - so the mobile app itself.
+The mobile app is implemented using the react-native framework and expo cli. 
+
+These required steps must be followed in order to run this application.
+
+Step 1. To run the application you will need all the node modules. So to install them run npm install.
+Ensure that you have node version 10 and npm version 6 or above.
+
+PLEASE refer to package.json for all the dependencies used in the application. 
+
+Step 2. Make sure that the node_modules/ directory is found in the root directory of the app. 
+
+Step 3. The app is developed using expo client and expo-cli. So ensure that expo-cli is installed on the commandline tools on your chosen operating system.
+
+Step 4. Once everything is installed, you can run npm start (expo start if you have successfully installed expo-cli)  to run the mobile app. It will open a development server which allows you to run the app on the phone/on an emulator.
+
+
+
+
+

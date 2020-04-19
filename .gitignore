@@ -1,0 +1,15 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+node_modules
+
+# Ignore twilio and service account
+server/twilio.js
+server/service-account.json

@@ -1,0 +1,14 @@
+This application serves as the server-side implementation of my mobile application.
+The mobile app queries the rest api-endpoint.
+
+These required steps must be followed in order to run this application.
+
+Step 1. To run the application you will need all the node modules. So to install them run npm install.
+Ensure that you have node version 10 and npm version 6 or above.
+
+Step 2. Once installed, you can run node index.js to start the server.
+(For development purposes, I used npm run dev to start the development environment which creates the server.
+
+
+
+

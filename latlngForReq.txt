@@ -1,0 +1,42 @@
+Location of a custom area in Leicester.
+
+latitude: 52.64004749562359
+longitude: -1.1863737171981832
+
+latitude: 52.640148050221796
+longitude: -1.2011519081267459
+
+latitude: 52.63115815399074
+longitude: -1.2013156489756591
+
+latitude: 52.63105763189297
+longitude: -1.1865404863437357
+
+
+https://data.police.uk/api/outcomes-at-location?date=2018-01&poly=52.640,-1.186:52.640,-1.201:52.631,-1.201:52.631,-1.186
+
+RESPONSE OBJECT
+{
+    "category": {
+      "code": "no-further-action",
+      "name": "Investigation complete; no suspect identified"
+    },
+    "date": "2019-01",
+    "person_id": null,
+    "crime": {
+      "category": "bicycle-theft",
+      "location_type": "Force",
+      "location": {
+        "latitude": "52.633724",
+        "street": {
+          "id": 883725,
+          "name": "On or near Woodhall Close"
+        },
+        "longitude": "-1.192254"
+      },
+      "context": "",
+      "persistent_id": "2226850c7531c87eb18354359765422ab0f7a507c816c67c8ef8fd2d2c0d077f",
+      "id": 71264520,
+      "location_subtype": "ROAD",
+      "month": "2019-01"
+    }

@@ -1,0 +1,14 @@
+extends layout
+
+//-content block for displaying content which includes the form. 
+block content
+  form(method='POST')
+    legend Login
+    .form-group
+      label(for='email') email
+      input.form-control(type='text', name='email', autofocus)
+    .form-group
+      label(for='password') Password
+      input.form-control(type='password', name='password')
+    button.btn.btn-primary(type='submit') Login
+    a.btn.btn-link(href='/forgot') Forgot Password?
