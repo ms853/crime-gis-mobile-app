@@ -13,3 +13,6 @@ node_modules
 # Ignore twilio and service account
 server/twilio.js
 server/service-account.json
+
+package-lock.json
+latlngForReq
